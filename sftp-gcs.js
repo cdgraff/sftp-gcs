@@ -6,6 +6,7 @@
  * The Google Cloud Storage (GCS) environment provides a blob storage container (bucket) holding blobs of data (files).
  * 
  */
+require('newrelic');
 const util = require('util');
 const { Storage } = require('@google-cloud/storage');
 const fs = require('fs');
